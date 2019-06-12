@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_main_page"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Main Page"/>
+        <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Nutrition"/>
+        <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Barcode Reader"/>
+
+
+        <item
+                android:id="@+id/nav_step_counter"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Step Counter"/>
+        <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log out" />
+    </group>
+
+</menu>

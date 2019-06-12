@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout
+
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".personal"
+        tools:showIn="@layout/app_bar_personal"
+        android:id="@+id/constraintLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:text="Date of Birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/birthDate"
+            android:textSize="14sp"
+
+            android:layout_marginTop="72dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:ems="10"
+            android:id="@+id/birthDateInput"
+            app:layout_constraintStart_toStartOf="@+id/birthDate"
+            app:layout_constraintTop_toBottomOf="@+id/birthDate" android:editable="false"/>
+    <TextView
+            android:text="Weight"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content" android:id="@+id/textView4"
+
+            app:layout_constraintTop_toBottomOf="@+id/birthDateInput" app:layout_constraintStart_toStartOf="@+id/birthDateInput"
+            android:layout_marginTop="8dp"/>
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/weightInput"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+    <TextView
+            android:text="Height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            app:layout_constraintStart_toStartOf="@+id/weightInput"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/weightInput"/>
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/heightInput"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+    <TextView
+            android:text="Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView6"
+            app:layout_constraintStart_toStartOf="@+id/heightInput"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/heightInput"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender_array"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/heightInput"
+            android:spinnerMode="dropdown" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="96dp"
+            android:textAlignment="viewEnd" android:gravity="right"/>
+    <TextView
+            android:text="Tobacco Usage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" android:layout_marginTop="16dp"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tobacco_freq_array"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/gender_array" app:layout_constraintEnd_toEndOf="@+id/gender_array"
+            android:spinnerMode="dropdown" android:gravity="right"/>
+    <TextView
+            android:text="Alcohol Usage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8" app:layout_constraintStart_toStartOf="@+id/textView7"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView7"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alcohol_freq_array" app:layout_constraintEnd_toEndOf="@+id/tobacco_freq_array"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/tobacco_freq_array"
+            android:gravity="right"/>
+
+</android.support.constraint.ConstraintLayout>

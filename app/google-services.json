@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010580447979",
+    "firebase_url": "https://thesis-bc1f2.firebaseio.com",
+    "project_id": "thesis-bc1f2",
+    "storage_bucket": "thesis-bc1f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010580447979:android:33e0da78816c6b45",
+        "android_client_info": {
+          "package_name": "com.example.thesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010580447979-cj4cksk3nrsohbfhhibe9g7sh67tai5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thesis",
+            "certificate_hash": "20197d0b5c6aea0fa669985e0100ae8041663a9e"
+          }
+        },
+        {
+          "client_id": "1010580447979-7hnohue62uoal53ehlkg60jj1eo1j2ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXbHrvSCHAjgXI7qWd6w8QOUmebXnz3Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010580447979-7hnohue62uoal53ehlkg60jj1eo1j2ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
